@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import { siteAssets } from "@/lib/siteAssets";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -77,17 +78,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-lg gradient-hero flex items-center justify-center">
-              <span className="text-2xl font-bold text-accent">M</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className={`font-heading font-bold text-lg leading-tight ${scrolled ? 'text-foreground' : 'text-primary'}`}>
-                MULTITECH
-              </h1>
-              <p className={`text-xs tracking-wider ${scrolled ? 'text-muted-foreground' : 'text-primary/80'}`}>
-                ENGINEERING (T) LTD
-              </p>
-            </div>
+            <img
+              src={siteAssets.logo}
+              alt="Multitech Engineering (T) Ltd"
+              className="h-11 sm:h-14 w-auto max-w-[190px] sm:max-w-[250px] object-contain"
+            />
           </Link>
 
           {/* Desktop nav */}

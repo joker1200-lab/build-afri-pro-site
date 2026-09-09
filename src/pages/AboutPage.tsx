@@ -4,8 +4,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowRight, Award, Shield, Users, Lightbulb, Target, Eye, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import teamImage from "@/assets/team-meeting.jpg";
-import heroImage from "@/assets/hero-engineering.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const values = [
   {
@@ -75,8 +74,8 @@ const AboutPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <AnimatedSection direction="left">
                 <img
-                  src={teamImage}
-                  alt="Multitech Engineering professional team"
+                  src={siteAssets.projectPlanning}
+                  alt="African engineering team planning a project"
                   className="rounded-2xl shadow-xl w-full object-cover"
                 />
               </AnimatedSection>
@@ -217,8 +216,8 @@ const AboutPage = () => {
               </AnimatedSection>
               <AnimatedSection direction="right">
                 <img
-                  src={heroImage}
-                  alt="Multitech Engineering construction site team"
+                  src={siteAssets.engineeringTeam}
+                  alt="African engineers reviewing construction plans"
                   className="rounded-2xl shadow-xl w-full object-cover"
                 />
               </AnimatedSection>

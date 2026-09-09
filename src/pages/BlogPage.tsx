@@ -4,17 +4,12 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowRight, Calendar, User, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import solarImage from "@/assets/solar-installation.jpg";
-import electricalImage from "@/assets/electrical-work.jpg";
-import hvacImage from "@/assets/hvac-work.jpg";
-import constructionImage from "@/assets/construction-site.jpg";
-import ictImage from "@/assets/ict-security.jpg";
-import mechanicalImage from "@/assets/mechanical-work.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const blogPosts = [
   {
     id: 1,
-    image: solarImage,
+    image: siteAssets.solarTechnician,
     category: "Renewable Energy",
     title: "The Benefits of Solar Energy for Tanzanian Businesses",
     excerpt: "Discover how solar power can reduce your operational costs and contribute to sustainable development in Tanzania. Learn about incentives, ROI, and implementation strategies.",
@@ -25,7 +20,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    image: electricalImage,
+    image: siteAssets.fieldEngineer,
     category: "Electrical Safety",
     title: "Essential Electrical Safety Tips for Commercial Buildings",
     excerpt: "Learn about critical electrical safety measures every business owner should implement to protect their property and employees. A comprehensive safety guide.",
@@ -36,7 +31,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    image: hvacImage,
+    image: siteAssets.projectPlanning,
     category: "HVAC Systems",
     title: "Choosing the Right HVAC System for Your Facility",
     excerpt: "A comprehensive guide to selecting and maintaining HVAC systems for optimal comfort and energy efficiency in Tanzania's climate.",
@@ -47,7 +42,7 @@ const blogPosts = [
   },
   {
     id: 4,
-    image: constructionImage,
+    image: siteAssets.civilEngineer,
     category: "Construction",
     title: "Modern Construction Techniques in East Africa",
     excerpt: "Exploring innovative building methods and materials that are transforming the construction industry in Tanzania and the wider region.",
@@ -58,7 +53,7 @@ const blogPosts = [
   },
   {
     id: 5,
-    image: ictImage,
+    image: siteAssets.fieldEngineer,
     category: "ICT Infrastructure",
     title: "Building Secure Network Infrastructure for Businesses",
     excerpt: "Essential considerations for designing and implementing robust, secure network infrastructure for modern businesses.",
@@ -69,7 +64,7 @@ const blogPosts = [
   },
   {
     id: 6,
-    image: mechanicalImage,
+    image: siteAssets.mechanicalWelder,
     category: "Mechanical Engineering",
     title: "Industrial Maintenance Best Practices",
     excerpt: "Learn how preventive maintenance can extend equipment life, reduce downtime, and save costs for industrial operations.",

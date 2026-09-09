@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Award, Shield, Users, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/ui/AnimatedSection";
-import teamImage from "@/assets/team-meeting.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const About = () => {
   const highlights = [
@@ -36,8 +36,8 @@ const About = () => {
           <AnimatedSection direction="left">
             <div className="relative">
               <img
-                src={teamImage}
-                alt="Multitech Engineering professional team meeting"
+                src={siteAssets.projectPlanning}
+                alt="African engineers reviewing project plans"
                 className="rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
               />
               {/* Experience badge */}

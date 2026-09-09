@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-engineering.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const Hero = () => {
   const features = [
@@ -16,8 +16,8 @@ const Hero = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={heroImage}
-          alt="Professional engineering team at construction site in Tanzania"
+          src={siteAssets.engineeringTeam}
+          alt="African engineering team reviewing construction plans"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/60" />

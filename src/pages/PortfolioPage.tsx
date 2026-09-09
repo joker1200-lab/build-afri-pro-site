@@ -5,13 +5,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowRight, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import projectBuilding from "@/assets/project-building.jpg";
-import projectSolar from "@/assets/project-solar.jpg";
-import constructionSite from "@/assets/construction-site.jpg";
-import electricalWork from "@/assets/electrical-work.jpg";
-import hvacWork from "@/assets/hvac-work.jpg";
-import ictSecurity from "@/assets/ict-security.jpg";
-import mechanicalWork from "@/assets/mechanical-work.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const categories = [
   "All Projects",
@@ -27,7 +21,7 @@ const categories = [
 const projects = [
   {
     id: 1,
-    image: projectBuilding,
+    image: siteAssets.engineeringTeam,
     category: "Building Works",
     title: "Commercial Office Complex",
     description: "Modern 8-story commercial building with full electrical and HVAC systems integration.",
@@ -36,7 +30,7 @@ const projects = [
   },
   {
     id: 2,
-    image: projectSolar,
+    image: siteAssets.solarTechnician,
     category: "Solar Energy",
     title: "Industrial Solar Installation",
     description: "500kW solar panel farm powering an industrial manufacturing facility.",
@@ -45,7 +39,7 @@ const projects = [
   },
   {
     id: 3,
-    image: constructionSite,
+    image: siteAssets.civilEngineer,
     category: "Civil Works",
     title: "Road Infrastructure Project",
     description: "Major civil works including road construction, drainage systems, and utilities.",
@@ -54,7 +48,7 @@ const projects = [
   },
   {
     id: 4,
-    image: electricalWork,
+    image: siteAssets.fieldEngineer,
     category: "Electrical",
     title: "Factory Electrical Upgrade",
     description: "Complete electrical system overhaul for a manufacturing plant.",
@@ -63,7 +57,7 @@ const projects = [
   },
   {
     id: 5,
-    image: hvacWork,
+    image: siteAssets.projectPlanning,
     category: "HVAC",
     title: "Hotel Climate Control",
     description: "Central air conditioning and ventilation system for a luxury hotel.",
@@ -72,7 +66,7 @@ const projects = [
   },
   {
     id: 6,
-    image: ictSecurity,
+    image: siteAssets.fieldEngineer,
     category: "ICT & Security",
     title: "Corporate Security System",
     description: "Integrated CCTV, access control, and network infrastructure for corporate offices.",
@@ -81,7 +75,7 @@ const projects = [
   },
   {
     id: 7,
-    image: mechanicalWork,
+    image: siteAssets.mechanicalWelder,
     category: "Mechanical",
     title: "Industrial Piping System",
     description: "Complex industrial piping and pump installation for processing plant.",
@@ -90,7 +84,7 @@ const projects = [
   },
   {
     id: 8,
-    image: projectBuilding,
+    image: siteAssets.engineeringTeam,
     category: "Building Works",
     title: "Shopping Mall Construction",
     description: "Multi-level retail complex with integrated services and parking facilities.",

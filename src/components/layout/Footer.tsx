@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { siteAssets } from "@/lib/siteAssets";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -41,14 +42,12 @@ const Footer = () => {
           {/* Company info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary">M</span>
-              </div>
-              <div>
-                <h3 className="font-heading font-bold text-lg leading-tight">MULTITECH</h3>
-                <p className="text-xs tracking-wider text-primary-foreground/70">
-                  ENGINEERING (T) LTD
-                </p>
+              <div className="bg-card rounded-md px-3 py-2">
+                <img
+                  src={siteAssets.logo}
+                  alt="Multitech Engineering (T) Ltd"
+                  className="h-12 w-auto max-w-[220px] object-contain"
+                />
               </div>
             </div>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">

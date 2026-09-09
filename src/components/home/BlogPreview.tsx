@@ -2,14 +2,12 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Calendar, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/ui/AnimatedSection";
-import solarImage from "@/assets/solar-installation.jpg";
-import electricalImage from "@/assets/electrical-work.jpg";
-import hvacImage from "@/assets/hvac-work.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const blogPosts = [
   {
     id: 1,
-    image: solarImage,
+    image: siteAssets.solarTechnician,
     category: "Renewable Energy",
     title: "The Benefits of Solar Energy for Tanzanian Businesses",
     excerpt: "Discover how solar power can reduce your operational costs and contribute to sustainable development in Tanzania.",
@@ -19,7 +17,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    image: electricalImage,
+    image: siteAssets.fieldEngineer,
     category: "Electrical Safety",
     title: "Essential Electrical Safety Tips for Commercial Buildings",
     excerpt: "Learn about critical electrical safety measures every business owner should implement to protect their property and employees.",
@@ -29,7 +27,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    image: hvacImage,
+    image: siteAssets.projectPlanning,
     category: "HVAC Systems",
     title: "Choosing the Right HVAC System for Your Facility",
     excerpt: "A comprehensive guide to selecting and maintaining HVAC systems for optimal comfort and energy efficiency.",
