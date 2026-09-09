@@ -7,7 +7,7 @@ import { siteAssets } from "@/lib/siteAssets";
 const blogPosts = [
   {
     id: 1,
-    image: siteAssets.solarInstallers,
+    image: siteAssets.serviceSolar,
     category: "Renewable Energy",
     title: "The Benefits of Solar Energy for Tanzanian Businesses",
     excerpt: "Discover how solar power can reduce your operational costs and contribute to sustainable development in Tanzania.",
@@ -17,7 +17,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    image: siteAssets.electricalTechnician,
+    image: siteAssets.serviceElectrical,
     category: "Electrical Safety",
     title: "Essential Electrical Safety Tips for Commercial Buildings",
     excerpt: "Learn about critical electrical safety measures every business owner should implement to protect their property and employees.",
@@ -27,7 +27,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    image: siteAssets.electricalMaintenance,
+    image: siteAssets.serviceHvac,
     category: "HVAC Systems",
     title: "Choosing the Right HVAC System for Your Facility",
     excerpt: "A comprehensive guide to selecting and maintaining HVAC systems for optimal comfort and energy efficiency.",
