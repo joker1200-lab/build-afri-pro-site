@@ -17,6 +17,10 @@ import serviceSolarAsset from "@/assets/service-solar.png.asset.json";
 import serviceHvacAsset from "@/assets/service-hvac.png.asset.json";
 import serviceMechanicalAsset from "@/assets/service-mechanical.png.asset.json";
 import serviceIctSecurityAsset from "@/assets/service-ict-security.png.asset.json";
+import industrialElectricalSystemAsset from "@/assets/industrial-electrical-system.png.asset.json";
+import infrastructureDevelopmentAsset from "@/assets/infrastructure-development.png.asset.json";
+import solarPowerInstallationAsset from "@/assets/solar-power-installation.png.asset.json";
+import commercialOfficeComplexAsset from "@/assets/commercial-office-complex.png.asset.json";
 
 export const siteAssets = {
   logo: logoAsset.url,
