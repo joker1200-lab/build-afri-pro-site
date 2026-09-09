@@ -36,7 +36,7 @@ const About = () => {
           <AnimatedSection direction="left">
             <div className="relative">
               <img
-                src={siteAssets.projectPlanning}
+                src={siteAssets.engineeringCollaboration}
                 alt="African engineers reviewing project plans"
                 className="rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
               />

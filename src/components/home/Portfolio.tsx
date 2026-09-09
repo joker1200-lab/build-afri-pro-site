@@ -8,14 +8,14 @@ import { siteAssets } from "@/lib/siteAssets";
 const projects = [
   {
     id: 1,
-    image: siteAssets.engineeringTeam,
+    image: siteAssets.projectPlanning,
     category: "Building Works",
     title: "Commercial Office Complex",
     description: "Modern 8-story commercial building with full electrical and HVAC systems",
   },
   {
     id: 2,
-    image: siteAssets.solarTechnician,
+    image: siteAssets.solarInstallers,
     category: "Renewable Energy",
     title: "Solar Power Installation",
     description: "500kW solar panel farm for industrial facility",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: 4,
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.electricalMaintenance,
     category: "Electrical Works",
     title: "Industrial Electrical System",
     description: "Complete electrical installation for manufacturing plant",

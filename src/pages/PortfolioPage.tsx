@@ -21,7 +21,7 @@ const categories = [
 const projects = [
   {
     id: 1,
-    image: siteAssets.engineeringTeam,
+    image: siteAssets.projectPlanning,
     category: "Building Works",
     title: "Commercial Office Complex",
     description: "Modern 8-story commercial building with full electrical and HVAC systems integration.",
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     id: 2,
-    image: siteAssets.solarTechnician,
+    image: siteAssets.solarInstallers,
     category: "Solar Energy",
     title: "Industrial Solar Installation",
     description: "500kW solar panel farm powering an industrial manufacturing facility.",
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     id: 4,
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.electricalTechnician,
     category: "Electrical",
     title: "Factory Electrical Upgrade",
     description: "Complete electrical system overhaul for a manufacturing plant.",
@@ -57,7 +57,7 @@ const projects = [
   },
   {
     id: 5,
-    image: siteAssets.projectPlanning,
+    image: siteAssets.electricalMaintenance,
     category: "HVAC",
     title: "Hotel Climate Control",
     description: "Central air conditioning and ventilation system for a luxury hotel.",
@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: 6,
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.telecomInfrastructure,
     category: "ICT & Security",
     title: "Corporate Security System",
     description: "Integrated CCTV, access control, and network infrastructure for corporate offices.",
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     id: 8,
-    image: siteAssets.engineeringTeam,
+    image: siteAssets.engineeringCollaboration,
     category: "Building Works",
     title: "Shopping Mall Construction",
     description: "Multi-level retail complex with integrated services and parking facilities.",

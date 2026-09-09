@@ -74,7 +74,7 @@ const AboutPage = () => {
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <AnimatedSection direction="left">
                 <img
-                  src={siteAssets.projectPlanning}
+                  src={siteAssets.engineeringCollaboration}
                   alt="African engineering team planning a project"
                   className="rounded-2xl shadow-xl w-full object-cover"
                 />
