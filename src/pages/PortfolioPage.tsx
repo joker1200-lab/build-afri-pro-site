@@ -21,7 +21,7 @@ const categories = [
 const projects = [
   {
     id: 1,
-    image: siteAssets.projectPlanning,
+    image: siteAssets.commercialOfficeComplex,
     category: "Building Works",
     title: "Commercial Office Complex",
     description: "Modern 8-story commercial building with full electrical and HVAC systems integration.",
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     id: 2,
-    image: siteAssets.solarInstallers,
+    image: siteAssets.solarPowerInstallation,
     category: "Solar Energy",
     title: "Industrial Solar Installation",
     description: "500kW solar panel farm powering an industrial manufacturing facility.",
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     id: 3,
-    image: siteAssets.civilEngineer,
+    image: siteAssets.infrastructureDevelopment,
     category: "Civil Works",
     title: "Road Infrastructure Project",
     description: "Major civil works including road construction, drainage systems, and utilities.",
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     id: 4,
-    image: siteAssets.electricalTechnician,
+    image: siteAssets.industrialElectricalSystem,
     category: "Electrical",
     title: "Factory Electrical Upgrade",
     description: "Complete electrical system overhaul for a manufacturing plant.",
