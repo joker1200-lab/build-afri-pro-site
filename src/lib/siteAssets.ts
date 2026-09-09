@@ -10,6 +10,13 @@ import electricalMaintenanceAsset from "@/assets/electrical-maintenance.jpg.asse
 import telecomInfrastructureAsset from "@/assets/telecom-infrastructure.jpg.asset.json";
 import engineeringCollaborationAsset from "@/assets/engineering-collaboration.jpg.asset.json";
 import solarInstallersAsset from "@/assets/solar-installers.jpg.asset.json";
+import serviceCivilAsset from "@/assets/service-civil.png.asset.json";
+import serviceBuildingAsset from "@/assets/service-building.png.asset.json";
+import serviceElectricalAsset from "@/assets/service-electrical.png.asset.json";
+import serviceSolarAsset from "@/assets/service-solar.png.asset.json";
+import serviceHvacAsset from "@/assets/service-hvac.png.asset.json";
+import serviceMechanicalAsset from "@/assets/service-mechanical.png.asset.json";
+import serviceIctSecurityAsset from "@/assets/service-ict-security.png.asset.json";
 
 export const siteAssets = {
   logo: logoAsset.url,
@@ -24,4 +31,11 @@ export const siteAssets = {
   telecomInfrastructure: telecomInfrastructureAsset.url,
   engineeringCollaboration: engineeringCollaborationAsset.url,
   solarInstallers: solarInstallersAsset.url,
+  serviceCivil: serviceCivilAsset.url,
+  serviceBuilding: serviceBuildingAsset.url,
+  serviceElectrical: serviceElectricalAsset.url,
+  serviceSolar: serviceSolarAsset.url,
+  serviceHvac: serviceHvacAsset.url,
+  serviceMechanical: serviceMechanicalAsset.url,
+  serviceIctSecurity: serviceIctSecurityAsset.url,
 };
