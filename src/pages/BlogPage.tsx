@@ -9,7 +9,7 @@ import { siteAssets } from "@/lib/siteAssets";
 const blogPosts = [
   {
     id: 1,
-    image: siteAssets.solarTechnician,
+    image: siteAssets.solarInstallers,
     category: "Renewable Energy",
     title: "The Benefits of Solar Energy for Tanzanian Businesses",
     excerpt: "Discover how solar power can reduce your operational costs and contribute to sustainable development in Tanzania. Learn about incentives, ROI, and implementation strategies.",
@@ -20,7 +20,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.electricalTechnician,
     category: "Electrical Safety",
     title: "Essential Electrical Safety Tips for Commercial Buildings",
     excerpt: "Learn about critical electrical safety measures every business owner should implement to protect their property and employees. A comprehensive safety guide.",
@@ -31,7 +31,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    image: siteAssets.projectPlanning,
+    image: siteAssets.electricalMaintenance,
     category: "HVAC Systems",
     title: "Choosing the Right HVAC System for Your Facility",
     excerpt: "A comprehensive guide to selecting and maintaining HVAC systems for optimal comfort and energy efficiency in Tanzania's climate.",
@@ -53,7 +53,7 @@ const blogPosts = [
   },
   {
     id: 5,
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.telecomInfrastructure,
     category: "ICT Infrastructure",
     title: "Building Secure Network Infrastructure for Businesses",
     excerpt: "Essential considerations for designing and implementing robust, secure network infrastructure for modern businesses.",

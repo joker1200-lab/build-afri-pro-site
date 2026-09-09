@@ -31,7 +31,7 @@ const services = [
     id: "building",
     title: "Building Works & Construction",
     description: "Full-service building construction from design consultation to final handover for residential, commercial, and industrial projects.",
-    image: siteAssets.engineeringTeam,
+    image: siteAssets.engineeringCollaboration,
     features: [
       "Commercial building construction",
       "Residential developments",
@@ -51,7 +51,7 @@ const services = [
     id: "electrical",
     title: "Electrical Works & Installations",
     description: "Complete electrical solutions including power distribution, wiring, and industrial electrical systems.",
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.electricalTechnician,
     features: [
       "Power distribution systems",
       "Electrical wiring and cabling",
@@ -91,7 +91,7 @@ const services = [
     id: "hvac",
     title: "HVAC Systems",
     description: "Heating, ventilation, and air conditioning solutions for optimal indoor climate control and energy efficiency.",
-    image: siteAssets.projectPlanning,
+    image: siteAssets.electricalMaintenance,
     features: [
       "Central air conditioning",
       "Split system installations",
@@ -131,7 +131,7 @@ const services = [
     id: "ict",
     title: "ICT, Telecoms & Security",
     description: "Modern technology infrastructure including networking, telecommunications, CCTV, and access control systems.",
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.telecomInfrastructure,
     features: [
       "Network infrastructure",
       "CCTV surveillance systems",

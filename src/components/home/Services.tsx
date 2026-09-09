@@ -26,14 +26,14 @@ const services = [
     title: "Building Works",
     description: "Commercial, residential, and industrial building construction with modern techniques.",
     link: "/services#building",
-    image: siteAssets.engineeringTeam,
+    image: siteAssets.engineeringCollaboration,
   },
   {
     icon: Zap,
     title: "Electrical Works",
     description: "Complete electrical installations, wiring, power distribution, and maintenance.",
     link: "/services#electrical",
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.electricalTechnician,
   },
   {
     icon: Sun,
@@ -47,7 +47,7 @@ const services = [
     title: "HVAC Systems",
     description: "Air conditioning, ventilation, refrigeration installation and maintenance.",
     link: "/services#hvac",
-    image: siteAssets.projectPlanning,
+    image: siteAssets.electricalMaintenance,
   },
   {
     icon: Wrench,
@@ -61,7 +61,7 @@ const services = [
     title: "ICT & Security",
     description: "Network infrastructure, CCTV, access control, and telecommunications solutions.",
     link: "/services#ict",
-    image: siteAssets.fieldEngineer,
+    image: siteAssets.telecomInfrastructure,
   },
 ];
 
