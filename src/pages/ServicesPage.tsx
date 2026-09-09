@@ -4,20 +4,14 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowRight, CheckCircle, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import civilImage from "@/assets/construction-site.jpg";
-import electricalImage from "@/assets/electrical-work.jpg";
-import solarImage from "@/assets/solar-installation.jpg";
-import hvacImage from "@/assets/hvac-work.jpg";
-import mechanicalImage from "@/assets/mechanical-work.jpg";
-import ictImage from "@/assets/ict-security.jpg";
-import buildingImage from "@/assets/project-building.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const services = [
   {
     id: "civil",
     title: "Civil Works & Infrastructure",
     description: "Comprehensive civil engineering solutions for roads, drainage, foundations, and land development projects.",
-    image: civilImage,
+    image: siteAssets.civilEngineer,
     features: [
       "Road construction and maintenance",
       "Drainage systems and culverts",
@@ -37,7 +31,7 @@ const services = [
     id: "building",
     title: "Building Works & Construction",
     description: "Full-service building construction from design consultation to final handover for residential, commercial, and industrial projects.",
-    image: buildingImage,
+    image: siteAssets.engineeringTeam,
     features: [
       "Commercial building construction",
       "Residential developments",
@@ -57,7 +51,7 @@ const services = [
     id: "electrical",
     title: "Electrical Works & Installations",
     description: "Complete electrical solutions including power distribution, wiring, and industrial electrical systems.",
-    image: electricalImage,
+    image: siteAssets.fieldEngineer,
     features: [
       "Power distribution systems",
       "Electrical wiring and cabling",
@@ -77,7 +71,7 @@ const services = [
     id: "solar",
     title: "Solar & Renewable Energy",
     description: "Sustainable energy solutions with solar panel installations, off-grid systems, and energy management.",
-    image: solarImage,
+    image: siteAssets.solarTechnician,
     features: [
       "Grid-tied solar systems",
       "Off-grid solar installations",
@@ -97,7 +91,7 @@ const services = [
     id: "hvac",
     title: "HVAC Systems",
     description: "Heating, ventilation, and air conditioning solutions for optimal indoor climate control and energy efficiency.",
-    image: hvacImage,
+    image: siteAssets.projectPlanning,
     features: [
       "Central air conditioning",
       "Split system installations",
@@ -117,7 +111,7 @@ const services = [
     id: "mechanical",
     title: "Mechanical Works",
     description: "Industrial mechanical engineering services including plumbing, fire systems, and equipment installation.",
-    image: mechanicalImage,
+    image: siteAssets.mechanicalWelder,
     features: [
       "Plumbing installations",
       "Fire suppression systems",
@@ -137,7 +131,7 @@ const services = [
     id: "ict",
     title: "ICT, Telecoms & Security",
     description: "Modern technology infrastructure including networking, telecommunications, CCTV, and access control systems.",
-    image: ictImage,
+    image: siteAssets.fieldEngineer,
     features: [
       "Network infrastructure",
       "CCTV surveillance systems",

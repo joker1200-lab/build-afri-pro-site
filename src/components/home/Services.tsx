@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/ui/AnimatedSection";
+import { siteAssets } from "@/lib/siteAssets";
 
 const services = [
   {
@@ -18,42 +19,49 @@ const services = [
     title: "Civil Works",
     description: "Road construction, drainage systems, earthworks, and infrastructure development projects.",
     link: "/services#civil",
+    image: siteAssets.civilEngineer,
   },
   {
     icon: Building2,
     title: "Building Works",
     description: "Commercial, residential, and industrial building construction with modern techniques.",
     link: "/services#building",
+    image: siteAssets.engineeringTeam,
   },
   {
     icon: Zap,
     title: "Electrical Works",
     description: "Complete electrical installations, wiring, power distribution, and maintenance.",
     link: "/services#electrical",
+    image: siteAssets.fieldEngineer,
   },
   {
     icon: Sun,
     title: "Solar & Renewable Energy",
     description: "Solar panel installation, grid-tied and off-grid systems, and energy solutions.",
     link: "/services#solar",
+    image: siteAssets.solarTechnician,
   },
   {
     icon: Wind,
     title: "HVAC Systems",
     description: "Air conditioning, ventilation, refrigeration installation and maintenance.",
     link: "/services#hvac",
+    image: siteAssets.projectPlanning,
   },
   {
     icon: Wrench,
     title: "Mechanical Works",
     description: "Industrial machinery, plumbing, fire systems, and mechanical engineering.",
     link: "/services#mechanical",
+    image: siteAssets.mechanicalWelder,
   },
   {
     icon: Network,
     title: "ICT & Security",
     description: "Network infrastructure, CCTV, access control, and telecommunications solutions.",
     link: "/services#ict",
+    image: siteAssets.fieldEngineer,
   },
 ];
 
@@ -83,8 +91,16 @@ const Services = () => {
                 to={service.link}
                 className="group card-elevated p-6 h-full flex flex-col"
               >
-                <div className="w-14 h-14 rounded-xl gradient-accent flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
-                  <service.icon size={28} className="text-accent-foreground" />
+                <div className="relative h-40 -mx-6 -mt-6 mb-5 overflow-hidden rounded-t-xl">
+                  <img
+                    src={service.image}
+                    alt={`${service.title} engineering service`}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute bottom-3 left-3 w-11 h-11 rounded-lg gradient-accent flex items-center justify-center shadow-lg">
+                    <service.icon size={22} className="text-accent-foreground" />
+                  </div>
                 </div>
                 <h3 className="text-xl font-heading font-bold text-foreground mb-3 group-hover:text-accent transition-colors">
                   {service.title}

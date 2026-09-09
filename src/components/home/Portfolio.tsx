@@ -3,36 +3,33 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/ui/AnimatedSection";
-import projectBuilding from "@/assets/project-building.jpg";
-import projectSolar from "@/assets/project-solar.jpg";
-import constructionSite from "@/assets/construction-site.jpg";
-import electricalWork from "@/assets/electrical-work.jpg";
+import { siteAssets } from "@/lib/siteAssets";
 
 const projects = [
   {
     id: 1,
-    image: projectBuilding,
+    image: siteAssets.engineeringTeam,
     category: "Building Works",
     title: "Commercial Office Complex",
     description: "Modern 8-story commercial building with full electrical and HVAC systems",
   },
   {
     id: 2,
-    image: projectSolar,
+    image: siteAssets.solarTechnician,
     category: "Renewable Energy",
     title: "Solar Power Installation",
     description: "500kW solar panel farm for industrial facility",
   },
   {
     id: 3,
-    image: constructionSite,
+    image: siteAssets.civilEngineer,
     category: "Civil Works",
     title: "Infrastructure Development",
     description: "Major civil works including roads and drainage systems",
   },
   {
     id: 4,
-    image: electricalWork,
+    image: siteAssets.fieldEngineer,
     category: "Electrical Works",
     title: "Industrial Electrical System",
     description: "Complete electrical installation for manufacturing plant",
