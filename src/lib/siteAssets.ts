@@ -42,4 +42,8 @@ export const siteAssets = {
   serviceHvac: serviceHvacAsset.url,
   serviceMechanical: serviceMechanicalAsset.url,
   serviceIctSecurity: serviceIctSecurityAsset.url,
+  industrialElectricalSystem: industrialElectricalSystemAsset.url,
+  infrastructureDevelopment: infrastructureDevelopmentAsset.url,
+  solarPowerInstallation: solarPowerInstallationAsset.url,
+  commercialOfficeComplex: commercialOfficeComplexAsset.url,
 };
