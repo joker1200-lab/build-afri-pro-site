@@ -8,28 +8,28 @@ import { siteAssets } from "@/lib/siteAssets";
 const projects = [
   {
     id: 1,
-    image: siteAssets.projectPlanning,
+    image: siteAssets.commercialOfficeComplex,
     category: "Building Works",
     title: "Commercial Office Complex",
     description: "Modern 8-story commercial building with full electrical and HVAC systems",
   },
   {
     id: 2,
-    image: siteAssets.solarInstallers,
+    image: siteAssets.solarPowerInstallation,
     category: "Renewable Energy",
     title: "Solar Power Installation",
     description: "500kW solar panel farm for industrial facility",
   },
   {
     id: 3,
-    image: siteAssets.civilEngineer,
+    image: siteAssets.infrastructureDevelopment,
     category: "Civil Works",
     title: "Infrastructure Development",
     description: "Major civil works including roads and drainage systems",
   },
   {
     id: 4,
-    image: siteAssets.electricalMaintenance,
+    image: siteAssets.industrialElectricalSystem,
     category: "Electrical Works",
     title: "Industrial Electrical System",
     description: "Complete electrical installation for manufacturing plant",
