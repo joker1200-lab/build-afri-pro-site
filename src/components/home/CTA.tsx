@@ -40,7 +40,7 @@ const CTA = () => {
             className="border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10 text-lg px-8"
             asChild
           >
-            <a href="tel:+255123456789">
+            <a href="tel:+255788222899">
               <Phone size={20} className="mr-2" />
               Call Us Now
             </a>
@@ -52,7 +52,7 @@ const CTA = () => {
             asChild
           >
             <a
-              href="https://wa.me/255123456789?text=Hello%20Multitech%20Engineering!"
+              href="https://wa.me/255788222899?text=Hello%20Multitech%20Engineering!"
               target="_blank"
               rel="noopener noreferrer"
             >

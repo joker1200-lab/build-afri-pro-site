@@ -110,13 +110,13 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-bold text-lg mb-6">Contact Us</h4>
             <div className="space-y-4 mb-8">
-              <a href="tel:+255123456789" className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors">
+              <a href="tel:+255788222899" className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors">
                 <Phone size={18} className="mt-1 text-accent" />
-                <span>+255 123 456 789</span>
+                <span>+255 788 222 899</span>
               </a>
-              <a href="mailto:info@multitech.co.tz" className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors">
+              <a href="mailto:info.multitechtz@gmail.com" className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors">
                 <Mail size={18} className="mt-1 text-accent" />
-                <span>info@multitech.co.tz</span>
+                <span>info.multitechtz@gmail.com</span>
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/80">
                 <MapPin size={18} className="mt-1 text-accent flex-shrink-0" />

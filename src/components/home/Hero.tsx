@@ -100,9 +100,9 @@ const Hero = () => {
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8"
               asChild
             >
-              <a href="tel:+255123456789">
+              <a href="tel:+255788222899">
                 <Phone size={20} className="mr-2" />
-                Call +255 123 456 789
+                Call +255 788 222 899
               </a>
             </Button>
           </motion.div>

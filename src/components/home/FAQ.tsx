@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: "How do I request a quote for my project?",
-    answer: "You can request a quote by contacting us through our website's contact form, calling us directly at +255 123 456 789, or reaching out via WhatsApp. Our team will arrange a site visit if needed and provide a detailed proposal within 3-5 business days.",
+    answer: "You can request a quote by contacting us through our website's contact form, calling us directly at +255 788 222 899, or reaching out via WhatsApp. Our team will arrange a site visit if needed and provide a detailed proposal within 3-5 business days.",
   },
   {
     question: "Are you licensed and insured?",

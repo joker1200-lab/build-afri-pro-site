@@ -40,7 +40,7 @@ const ContactPage = () => {
         <title>Contact Us | Multitech Engineering (T) Ltd - Get a Quote Tanzania</title>
         <meta
           name="description"
-          content="Contact Multitech Engineering for a free quote. Located in Dar es Salaam, Tanzania. Call +255 123 456 789 or use our contact form for engineering inquiries."
+          content="Contact Multitech Engineering for a free quote. Located in Dar es Salaam, Tanzania. Call +255 788 222 899 or use our contact form for engineering inquiries."
         />
       </Helmet>
       <Layout>
@@ -74,7 +74,7 @@ const ContactPage = () => {
 
                 <div className="space-y-6">
                   <a
-                    href="tel:+255123456789"
+                    href="tel:+255788222899"
                     className="flex items-start gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
                   >
                     <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
@@ -84,13 +84,13 @@ const ContactPage = () => {
                       <h3 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         Call Us
                       </h3>
-                      <p className="text-muted-foreground">+255 123 456 789</p>
+                      <p className="text-muted-foreground">+255 788 222 899</p>
                       <p className="text-muted-foreground">+255 987 654 321</p>
                     </div>
                   </a>
 
                   <a
-                    href="https://wa.me/255123456789"
+                    href="https://wa.me/255788222899"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
@@ -102,13 +102,13 @@ const ContactPage = () => {
                       <h3 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         WhatsApp
                       </h3>
-                      <p className="text-muted-foreground">+255 123 456 789</p>
+                      <p className="text-muted-foreground">+255 788 222 899</p>
                       <p className="text-sm text-accent">Click to chat</p>
                     </div>
                   </a>
 
                   <a
-                    href="mailto:info@multitech.co.tz"
+                    href="mailto:info.multitechtz@gmail.com"
                     className="flex items-start gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
                   >
                     <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
@@ -118,7 +118,7 @@ const ContactPage = () => {
                       <h3 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         Email Us
                       </h3>
-                      <p className="text-muted-foreground">info@multitech.co.tz</p>
+                      <p className="text-muted-foreground">info.multitechtz@gmail.com</p>
                       <p className="text-muted-foreground">sales@multitech.co.tz</p>
                     </div>
                   </a>
