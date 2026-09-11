@@ -120,7 +120,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/80">
                 <MapPin size={18} className="mt-1 text-accent flex-shrink-0" />
-                <span>Plot 123, Industrial Area<br />Dar es Salaam, Tanzania</span>
+                <span>EAGT Building, Bohari Street<br />Near Nyerere Road, Dar es Salaam, Tanzania</span>
               </div>
             </div>
 

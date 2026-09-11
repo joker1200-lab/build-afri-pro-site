@@ -85,7 +85,8 @@ const ContactPage = () => {
                         Call Us
                       </h3>
                       <p className="text-muted-foreground">+255 788 222 899</p>
-                      <p className="text-muted-foreground">+255 987 654 321</p>
+                      <p className="text-muted-foreground">+255 723 116 111</p>
+                      <p className="text-muted-foreground">+255 789 888 878</p>
                     </div>
                   </a>
 
@@ -119,7 +120,7 @@ const ContactPage = () => {
                         Email Us
                       </h3>
                       <p className="text-muted-foreground">info.multitechtz@gmail.com</p>
-                      <p className="text-muted-foreground">sales@multitech.co.tz</p>
+                      
                     </div>
                   </a>
 
@@ -132,8 +133,8 @@ const ContactPage = () => {
                         Our Office
                       </h3>
                       <p className="text-muted-foreground">
-                        Plot 123, Industrial Area<br />
-                        Dar es Salaam, Tanzania
+                        EAGT Building, Bohari Street<br />
+                        Near Nyerere Road, Dar es Salaam, Tanzania
                       </p>
                     </div>
                   </div>
