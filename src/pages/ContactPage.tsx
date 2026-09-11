@@ -272,7 +272,7 @@ const ContactPage = () => {
         {/* Map Section */}
         <section className="h-96 bg-muted">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126846.37667440853!2d39.12892!3d-6.792354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4bae169bd6f1%3A0x940f6b26a086a1dd!2sDar%20es%20Salaam%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1706800000000!5m2!1sen!2sus"
+            src="https://www.google.com/maps?q=EAGT%20Building%2C%20Bohari%20Street%2C%20near%20Nyerere%20Road%2C%20Dar%20es%20Salaam%2C%20Tanzania&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
