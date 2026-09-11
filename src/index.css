@@ -14,44 +14,44 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Navy Blue - Primary Brand */
-    --primary: 213 56% 24%;
+    /* Logo Deep Blue - Primary Brand */
+    --primary: 214 66% 27%;
     --primary-foreground: 0 0% 100%;
 
     /* Steel Grey - Secondary */
-    --secondary: 210 14% 89%;
+    --secondary: 210 12% 88%;
     --secondary-foreground: 215 25% 20%;
 
     /* Muted backgrounds */
     --muted: 210 20% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted-foreground: 215 14% 45%;
 
-    /* Orange Accent */
-    --accent: 24 95% 53%;
+    /* Logo Bright Blue Accent */
+    --accent: 208 68% 44%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 213 56% 24%;
+    --border: 210 18% 89%;
+    --input: 210 18% 89%;
+    --ring: 208 68% 44%;
 
     --radius: 0.5rem;
 
     /* Custom tokens */
-    --navy: 213 56% 24%;
-    --navy-light: 213 45% 35%;
-    --navy-dark: 213 60% 18%;
-    --steel: 210 14% 53%;
-    --steel-light: 210 14% 89%;
-    --orange: 24 95% 53%;
-    --orange-dark: 24 95% 45%;
+    --navy: 214 66% 27%;
+    --navy-light: 210 60% 38%;
+    --navy-dark: 214 70% 19%;
+    --steel: 212 10% 45%;
+    --steel-light: 210 12% 88%;
+    --orange: 208 68% 44%;
+    --orange-dark: 210 70% 34%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(213 56% 24%) 0%, hsl(213 60% 18%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(24 95% 53%) 0%, hsl(24 95% 45%) 100%);
-    --gradient-overlay: linear-gradient(180deg, rgba(30, 58, 95, 0.85) 0%, rgba(30, 58, 95, 0.95) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(214 66% 27%) 0%, hsl(214 70% 17%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(208 68% 46%) 0%, hsl(214 66% 30%) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(17, 45, 82, 0.85) 0%, rgba(17, 45, 82, 0.95) 100%);
 
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
