@@ -40,7 +40,7 @@ const ContactPage = () => {
         <title>Contact Us | Multitech Engineering (T) Ltd - Get a Quote Tanzania</title>
         <meta
           name="description"
-          content="Contact Multitech Engineering for a free quote. Located in Dar es Salaam, Tanzania. Call +255 123 456 789 or use our contact form for engineering inquiries."
+          content="Contact Multitech Engineering for a free quote. Located in Dar es Salaam, Tanzania. Call +255 788 222 899 or use our contact form for engineering inquiries."
         />
       </Helmet>
       <Layout>
@@ -74,7 +74,7 @@ const ContactPage = () => {
 
                 <div className="space-y-6">
                   <a
-                    href="tel:+255123456789"
+                    href="tel:+255788222899"
                     className="flex items-start gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
                   >
                     <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
@@ -84,13 +84,14 @@ const ContactPage = () => {
                       <h3 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         Call Us
                       </h3>
-                      <p className="text-muted-foreground">+255 123 456 789</p>
-                      <p className="text-muted-foreground">+255 987 654 321</p>
+                      <p className="text-muted-foreground">+255 788 222 899</p>
+                      <p className="text-muted-foreground">+255 723 116 111</p>
+                      <p className="text-muted-foreground">+255 789 888 878</p>
                     </div>
                   </a>
 
                   <a
-                    href="https://wa.me/255123456789"
+                    href="https://wa.me/255788222899"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
@@ -102,13 +103,13 @@ const ContactPage = () => {
                       <h3 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         WhatsApp
                       </h3>
-                      <p className="text-muted-foreground">+255 123 456 789</p>
+                      <p className="text-muted-foreground">+255 788 222 899</p>
                       <p className="text-sm text-accent">Click to chat</p>
                     </div>
                   </a>
 
                   <a
-                    href="mailto:info@multitech.co.tz"
+                    href="mailto:info.multitechtz@gmail.com"
                     className="flex items-start gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
                   >
                     <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
@@ -118,8 +119,8 @@ const ContactPage = () => {
                       <h3 className="font-semibold text-foreground group-hover:text-accent transition-colors">
                         Email Us
                       </h3>
-                      <p className="text-muted-foreground">info@multitech.co.tz</p>
-                      <p className="text-muted-foreground">sales@multitech.co.tz</p>
+                      <p className="text-muted-foreground">info.multitechtz@gmail.com</p>
+                      
                     </div>
                   </a>
 
@@ -132,8 +133,8 @@ const ContactPage = () => {
                         Our Office
                       </h3>
                       <p className="text-muted-foreground">
-                        Plot 123, Industrial Area<br />
-                        Dar es Salaam, Tanzania
+                        EAGT Building, Bohari Street<br />
+                        Near Nyerere Road, Dar es Salaam, Tanzania
                       </p>
                     </div>
                   </div>
@@ -271,7 +272,7 @@ const ContactPage = () => {
         {/* Map Section */}
         <section className="h-96 bg-muted">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126846.37667440853!2d39.12892!3d-6.792354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4bae169bd6f1%3A0x940f6b26a086a1dd!2sDar%20es%20Salaam%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1706800000000!5m2!1sen!2sus"
+            src="https://www.google.com/maps?q=EAGT%20Building%2C%20Bohari%20Street%2C%20near%20Nyerere%20Road%2C%20Dar%20es%20Salaam%2C%20Tanzania&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}

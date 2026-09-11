@@ -56,18 +56,18 @@ const Header = () => {
       <div className="hidden lg:block bg-primary">
         <div className="container-custom py-2 flex justify-between items-center">
           <div className="flex items-center gap-6 text-sm text-primary-foreground/90">
-            <a href="tel:+255123456789" className="flex items-center gap-2 hover:text-accent transition-colors">
+            <a href="tel:+255788222899" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone size={14} />
-              +255 123 456 789
+              +255 788 222 899
             </a>
             <span>Dar es Salaam, Tanzania</span>
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://wa.me/255123456789"
+              href="https://wa.me/255788222899"
               className="text-sm text-primary-foreground/90 hover:text-accent transition-colors"
             >
-              WhatsApp: +255 123 456 789
+              WhatsApp: +255 788 222 899
             </a>
           </div>
         </div>
@@ -138,7 +138,7 @@ const Header = () => {
           {/* CTA buttons */}
           <div className="hidden lg:flex items-center gap-4">
             <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" asChild>
-              <a href="tel:+255123456789">
+              <a href="tel:+255788222899">
                 <Phone size={18} className="mr-2" />
                 Call Now
               </a>
@@ -196,7 +196,7 @@ const Header = () => {
                 ))}
                 <div className="px-6 pt-4 mt-4 border-t border-border space-y-3">
                   <Button variant="outline" className="w-full border-primary" asChild>
-                    <a href="tel:+255123456789">
+                    <a href="tel:+255788222899">
                       <Phone size={18} className="mr-2" />
                       Call Now
                     </a>
